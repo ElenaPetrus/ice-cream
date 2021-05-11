@@ -1,0 +1,35 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+// @import './example';
+
+// Это мои импорты!
+
+@import './utils/vissually-hidden';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/placeholder';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/title';
+@import './components/subtitle';
+@import './components/button';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+@import './components/backdrop-mob-menu';
+
+@import './layout/hero';
+@import './layout/about';
+@import './layout/header';
+@import './layout/reviews';
+@import './layout/products';
+@import './layout/contacts';
+@import './layout/footer';
+
+// конец
